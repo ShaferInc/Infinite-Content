@@ -3,11 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@jridgewell/sourcemap-codec": "^1.4.15",
+    "@mediapipe/tasks-vision": "^0.10.14",
     "@react-three/drei": "^9.105.6",
     "@react-three/fiber": "^8.16.6",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "abab": "^2.0.6",
+    "lru-cache": "^10.2.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
@@ -37,5 +41,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-class-properties": "^7.24.6",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.24.6",
+    "@babel/plugin-transform-numeric-separator": "^7.24.6",
+    "@babel/plugin-transform-optional-chaining": "^7.24.6",
+    "@babel/plugin-transform-private-methods": "^7.24.6",
+    "@rollup/plugin-terser": "^0.4.4",
+    "glob": "^9.3.5",
+    "rimraf": "^4.4.1",
+    "svgo": "^2.8.0"
   }
 }
